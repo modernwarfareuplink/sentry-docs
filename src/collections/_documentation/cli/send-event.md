@@ -75,7 +75,7 @@ For bash scripts you can also enable automatic error sending by using the sentry
 
 The limitations for this are:
 
--   sentry-cli really only works if `set -e` is enabled (which it will by default enable for you).
+-   sentry-cli really only works if `set -e` is enabled (which it will by default enabled for you).
 -   sentry-cli registers an `EXIT` and `ERR` trap.
 
 Usage:
